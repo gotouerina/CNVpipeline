@@ -1,6 +1,6 @@
 # CNVshellscript
 Script used for CNV
 
-if you have bam file,please run from the step2
+If you have bam files,please run from the step2.sh
 
 the Rscripts used are in https://github.com/DaRinker/PolarBearCNV
