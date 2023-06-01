@@ -41,6 +41,14 @@ please put all split chr FASTA files into folder "splitchr"
 
 remember to edit these three lines
 
+#    Step1
+
+Edit the path of freec in 01.CNV.sh and run
+
+        sh 01.CNV.sh
+        sh CNV.sh
+#   Step2
+
 #     Plot (画图)
 
 The Rscripts used are in https://github.com/DaRinker/PolarBearCNV
