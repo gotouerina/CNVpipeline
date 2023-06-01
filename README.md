@@ -47,16 +47,16 @@ please put all split chr FASTA files into folder "splitchr"
 
 remember to edit these three lines
 
-#    Step1
+#    Step1 （CNV计算）
 
 Edit the path of freec in 01.CNV.sh and run
 
         sh 01.CNV.sh
         sh CNVrun.sh
-#   Step2
+#   Step2 （基因注释）
 
         sh 02.overlap.sh
-#   Step3
+#   Step3 （计算测序深度）
 
         sh 03.BDN.sh
 
