@@ -49,6 +49,8 @@ Edit the path of freec in 01.CNV.sh and run
         sh CNVrun.sh
 #   Step2
 
+        Sh 02.overlap.sh
+
 #     Plot (画图)
 
 The Rscripts used are in https://github.com/DaRinker/PolarBearCNV
