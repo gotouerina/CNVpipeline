@@ -12,6 +12,12 @@ Maybe you can type
 
 for download.
 
+To install dependenc, type 
+
+        conda install sambamba
+        conda install bedtools
+        conda install samtools
+
 #   BAM format file prepare （准备BAM文件）
 
 The analysis was based on BAM format file.
