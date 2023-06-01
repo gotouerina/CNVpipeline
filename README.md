@@ -18,9 +18,23 @@ The analysis was based on BAM format file.
 
 To obtain Bamfile, read my pipeline in https://github.com/gotouerina/snptools
 
-#   Split reference fasta into chr and calculate length （切分参考fasta文件并且计算长度）
+#   Fasta preparation （切分参考基因组、计算长度）
+
+You should split reference fasta into chr and calculate length
 
 You can use samtools, seqkit, seqtk or write scripts. Here I provide a script and a method.
+
+Scripts for splitchr : https://github.com/gotouerina/Syri_SV/blob/main/split.pl
+
+Usage:
+
+        perl split.pl reference.fasta
+        bioawk -c fastx '{print $name, length($seq)}' reference.fasta > reference.fasta.len
+
+#    Config File edition (修改配置文件)
+
+
+#     Plot (画图)
 
 The Rscripts used are in https://github.com/DaRinker/PolarBearCNV
 
