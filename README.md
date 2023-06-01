@@ -49,10 +49,11 @@ Edit the path of freec in 01.CNV.sh and run
         sh CNVrun.sh
 #   Step2
 
-        Sh 02.overlap.sh
+        sh 02.overlap.sh
+#   Step3
+
+        sh 03.BDN.sh
 
 #     Plot (画图)
 
-The Rscripts used are in https://github.com/DaRinker/PolarBearCNV
-
-To split chromesome and contig into their own fasta file, you can use the scripts in splitchr_script. 
+The CNV_gene-overlap.pl and  Rscripts used are in https://github.com/DaRinker/PolarBearCNV, check for detail.
