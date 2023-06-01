@@ -33,6 +33,12 @@ Usage:
 
 #    Config File edition (修改配置文件)
 
+please put all split chr FASTA files into folder "splitchr" 
+
+        chrFiles=/path/splitchr
+        chrLenFile=/path/reference.fasta.len
+
+remember to edit these two lines
 
 #     Plot (画图)
 
