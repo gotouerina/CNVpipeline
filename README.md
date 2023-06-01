@@ -37,8 +37,9 @@ please put all split chr FASTA files into folder "splitchr"
 
         chrFiles=/path/splitchr
         chrLenFile=/path/reference.fasta.len
+        outputDir=/path/output
 
-remember to edit these two lines
+remember to edit these three lines
 
 #     Plot (画图)
 
