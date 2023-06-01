@@ -5,3 +5,4 @@ cat bamlist |  while read line;
 do	
 	echo "$freec -conf example.conf --sample $line " >> CNVrun.sh
 done
+## sh CNVrun.sh
