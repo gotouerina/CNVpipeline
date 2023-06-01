@@ -12,7 +12,7 @@ Maybe you can type
 
 for download.
 
-To install dependenc, type 
+To install dependency, type 
 
         conda install sambamba
         conda install bedtools
