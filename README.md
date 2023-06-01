@@ -46,7 +46,7 @@ remember to edit these three lines
 Edit the path of freec in 01.CNV.sh and run
 
         sh 01.CNV.sh
-        sh CNV.sh
+        sh CNVrun.sh
 #   Step2
 
 #     Plot (画图)
