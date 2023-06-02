@@ -53,9 +53,13 @@ Edit the path of freec in 01.CNV.sh and run
 
         sh 01.CNV.sh
         sh CNVrun.sh
-#   Step2 （基因注释）
+#   Step2 （注释CNV基因）
 
+通过GFF注释文件可以生成脚本需要的输入文件
+
+        perl -F'\s+' -alne '$,="\t";print $F[8],$F[3],$F[4],$F[6],$F[0]' /path/gff > ref.gff
         sh 02.overlap.sh
+        
 #   Step3 （计算测序深度）
 
         sh 03.BDN.sh
