@@ -1,6 +1,6 @@
 # CNV分析流程 cnv pipeline
 
-Script used for CNV --update in 2023.6.1 version1.1
+Script used for CNV --update in 2023.6.2 version1.2
 
 #  Software Install (软件安装)
 
